@@ -1,0 +1,17 @@
+# SPDX-License-Identifier: MIT
+[package]
+name = "link-bridge-protocol"
+description = "The messages between gma3-phrase-sync and a Link bridge (protocol LB1), with no Link code"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.99"
+license = "MIT"
+repository = "https://github.com/bdstark/link-bridge-protocol"
+publish = false
+
+[lints.rust]
+unsafe_code = "forbid"
+missing_docs = "warn"
+
+[lints.clippy]
+all = { level = "warn", priority = -1 }
