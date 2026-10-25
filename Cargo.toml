@@ -1,8 +1,8 @@
 # SPDX-License-Identifier: MIT
 [package]
 name = "link-bridge-protocol"
-description = "The messages between gma3-phrase-sync and a Link bridge (protocol LB1), with no Link code"
-version = "0.1.0"
+description = "The messages between gma3-phrase-sync and a Link bridge (protocols LB1 and LB2), with no Link code"
+version = "0.2.0"
 edition = "2024"
 rust-version = "1.99"
 license = "MIT"
